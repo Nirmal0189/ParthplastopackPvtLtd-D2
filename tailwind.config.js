@@ -8,13 +8,21 @@ export default {
     extend: {
       colors: {
         brand: {
-          blue: '#0052CC', // Vibrant Digital Cobalt Blue
-          charcoal: '#212529', // Deep Slate/Charcoal
-          gray: '#F8F9FA', // Pure Minimalist Light Gray
+          gold: '#D4A843',
+          crimson: '#AC3024',
+          charcoal: '#212529',
+          gray: '#F8F9FA',
+        },
+        industrial: {
+          dark: '#FFFFFF',    // White base background
+          gray: '#F5F0E6',    // Warm light golden-tinted gray
+          blue: '#D4A843',    // Light Golden (primary accent)
+          red: '#AC3024',     // Deep Crimson (secondary accent)
         }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', 'sans-serif'],
+        sans: ['Montserrat', 'Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       }
     },
   },
